@@ -22,7 +22,7 @@ namespace Sitecore.CustomLogger.Logger
             logger.Error(error.ToString());
         }
 
-        public static string GetMaskedPhoneNumber(string phoneNumber)
+        public static string GetMaskedIndianPhoneNumber(string phoneNumber)
         {
             return string.Format("XXXXXXX{0}", phoneNumber.Substring(6, 3));
         }
